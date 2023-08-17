@@ -10,5 +10,21 @@ main{
 }
 .intro{
     display: flex;
+    align-items: center;
+    gap: 40px;
    
+}
+.container {
+    & .row {
+       display: flex;
+       flex-direction: row;
+      gap: 40px;
+       
+
+    }
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
 }
