@@ -174,14 +174,60 @@ header{
 
 
 
-
-
-
-
-
-main{
+body{
+    width: 1920px;
+    height: 3078px;
+    display: flex;
+    flex-direction: column;
     gap: 100px;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+
+
+.projectSection{
+    padding-left: 320px;
+    padding-right: 320px;
+}
+.projectMain{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.projectPost{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.projectText{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.projectTit{
+    color: var(--primary, #0A2944);
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.projectShort{
+    color: var(--primary, #0A2944);
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.5;
+}
+
   
 footer{
     width: 1920px;
